@@ -43,3 +43,6 @@ def Winner(Player1, Computer):
     (Player1[9] == Computer and Player1[6] == Computer and Player1[3] == Computer) or 
     (Player1[7] == Computer and Player1[5] == Computer and Player1[3] == Computer) or 
     (Player1[9] == Computer and Player1[5] == Computer and Player1[1] == Computer)) 
+
+def newBoard(board):
+    
