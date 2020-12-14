@@ -45,20 +45,4 @@ def Winner(Player1, Computer):
     (Player1[9] == Computer and Player1[5] == Computer and Player1[1] == Computer)) 
 
 def newBoard(board):
-    dupeBoard = []
-    for i in board:
-        dupeBoard.append(i)
-    return dupeBoard
-
-# Defines can a player move to that position or is the position taken
-def FreePlace(board, move):
-    return board[move] == ' '
-
-# Defines where player wants to move on the board
-def Player1(board):
-    move = ' '
-    while move not in '1 2 3 4 5 6 7 8 9'.split() or not FreePlace(board, int(move)):
-        print('Please choose position 1-9!)')
-        move = input()
-    return int(move)
-
+    
